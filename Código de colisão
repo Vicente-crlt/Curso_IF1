@@ -1,0 +1,10 @@
+//Criar dois objetos, um para a colisão, outro o "Jogador"
+
+if(place_meeting(x+1, y+1, Object1)) {
+  spd = 0;
+}
+
+if(place_meeting(x+1, y+1, Object2)) {
+    x = 0
+    y = 0
+}
